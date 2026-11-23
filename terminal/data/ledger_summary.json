@@ -1,0 +1,740 @@
+{
+ "method": "Laplace log-space forecasts; scale = expanding median |past error| / ln 2 per boundary type (pooled until 15 events), out of sample, pooled across tokens",
+ "warmup_events": 15,
+ "first": "2026-08-20 15:55:35",
+ "last": "2026-11-20 16:00:58",
+ "overall": {
+  "n": 629,
+  "no_change": {
+   "crps_bp": 58.041,
+   "mae_bp": 80.284,
+   "coverage80": 0.8203,
+   "pit_hist": [
+    54,
+    43,
+    131,
+    15,
+    44,
+    41,
+    22,
+    169,
+    51,
+    59
+   ],
+   "reliability": [
+    {
+     "nominal": 0.1,
+     "realised": 0.1002
+    },
+    {
+     "nominal": 0.2,
+     "realised": 0.1351
+    },
+    {
+     "nominal": 0.3,
+     "realised": 0.1574
+    },
+    {
+     "nominal": 0.4,
+     "realised": 0.194
+    },
+    {
+     "nominal": 0.5,
+     "realised": 0.4992
+    },
+    {
+     "nominal": 0.6,
+     "realised": 0.6709
+    },
+    {
+     "nominal": 0.7,
+     "realised": 0.7043
+    },
+    {
+     "nominal": 0.8,
+     "realised": 0.8203
+    },
+    {
+     "nominal": 0.9,
+     "realised": 0.9189
+    },
+    {
+     "nominal": 0.95,
+     "realised": 0.9666
+    }
+   ]
+  },
+  "dex": {
+   "crps_bp": 14.976,
+   "mae_bp": 18.19,
+   "coverage80": 0.9046,
+   "pit_hist": [
+    32,
+    64,
+    96,
+    82,
+    59,
+    66,
+    93,
+    65,
+    44,
+    28
+   ],
+   "reliability": [
+    {
+     "nominal": 0.1,
+     "realised": 0.1033
+    },
+    {
+     "nominal": 0.2,
+     "realised": 0.1987
+    },
+    {
+     "nominal": 0.3,
+     "realised": 0.3323
+    },
+    {
+     "nominal": 0.4,
+     "realised": 0.4769
+    },
+    {
+     "nominal": 0.5,
+     "realised": 0.6137
+    },
+    {
+     "nominal": 0.6,
+     "realised": 0.7329
+    },
+    {
+     "nominal": 0.7,
+     "realised": 0.8537
+    },
+    {
+     "nominal": 0.8,
+     "realised": 0.9046
+    },
+    {
+     "nominal": 0.9,
+     "realised": 0.9491
+    },
+    {
+     "nominal": 0.95,
+     "realised": 0.9698
+    }
+   ]
+  },
+  "skill_dex_vs_no_change": 0.742
+ },
+ "by_kind": {
+  "open_0930": {
+   "n": 94,
+   "no_change": {
+    "crps_bp": 70.498,
+    "mae_bp": 92.704,
+    "coverage80": 0.8298,
+    "pit_hist": [
+     9,
+     9,
+     15,
+     7,
+     7,
+     9,
+     5,
+     17,
+     9,
+     7
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.1383
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.1702
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.2128
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.2979
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.5426
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.6383
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.7128
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.8298
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.9149
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.9468
+     }
+    ]
+   },
+   "dex": {
+    "crps_bp": 14.931,
+    "mae_bp": 20.662,
+    "coverage80": 0.9043,
+    "pit_hist": [
+     3,
+     13,
+     14,
+     8,
+     7,
+     9,
+     13,
+     15,
+     6,
+     6
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.0426
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.1702
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.2766
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.3936
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.5426
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.7021
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.8511
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.9043
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.9468
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.9894
+     }
+    ]
+   },
+   "skill_dex_vs_no_change": 0.7882
+  },
+  "other": {
+   "n": 392,
+   "no_change": {
+    "crps_bp": 54.498,
+    "mae_bp": 77.294,
+    "coverage80": 0.8189,
+    "pit_hist": [
+     35,
+     25,
+     97,
+     4,
+     24,
+     22,
+     5,
+     118,
+     26,
+     36
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.0918
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.1173
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.1276
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.1403
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.4923
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.6888
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.7066
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.8189
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.926
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.9796
+     }
+    ]
+   },
+   "dex": {
+    "crps_bp": 11.325,
+    "mae_bp": 13.82,
+    "coverage80": 0.9184,
+    "pit_hist": [
+     17,
+     38,
+     61,
+     59,
+     33,
+     43,
+     63,
+     36,
+     27,
+     15
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.1122
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.1939
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.3342
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.5051
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.648
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.7526
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.8597
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.9184
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.9643
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.9821
+     }
+    ]
+   },
+   "skill_dex_vs_no_change": 0.7922
+  },
+  "overnight_2000": {
+   "n": 12,
+   "no_change": {
+    "crps_bp": 61.122,
+    "mae_bp": 81.912,
+    "coverage80": 0.75,
+    "pit_hist": [
+     1,
+     1,
+     2,
+     0,
+     2,
+     2,
+     0,
+     1,
+     1,
+     2
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.1667
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.3333
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.3333
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.3333
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.4167
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.75
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.9167
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.9167
+     }
+    ]
+   },
+   "dex": {
+    "crps_bp": 60.883,
+    "mae_bp": 67.073,
+    "coverage80": 0.5833,
+    "pit_hist": [
+     4,
+     0,
+     0,
+     2,
+     2,
+     3,
+     0,
+     0,
+     0,
+     1
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.25
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.4167
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.5
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.5833
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.5833
+     }
+    ]
+   },
+   "skill_dex_vs_no_change": 0.0039
+  },
+  "pre_0400": {
+   "n": 50,
+   "no_change": {
+    "crps_bp": 49.745,
+    "mae_bp": 73.316,
+    "coverage80": 0.92,
+    "pit_hist": [
+     3,
+     5,
+     13,
+     0,
+     3,
+     0,
+     0,
+     20,
+     5,
+     1
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.02
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.06
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.06
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.06
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.54
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.72
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.74
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.92
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.94
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.98
+     }
+    ]
+   },
+   "dex": {
+    "crps_bp": 32.933,
+    "mae_bp": 35.621,
+    "coverage80": 0.94,
+    "pit_hist": [
+     3,
+     8,
+     9,
+     3,
+     3,
+     6,
+     11,
+     7,
+     0,
+     0
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.06
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.18
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.34
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.46
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.64
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.78
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.92
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.94
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.96
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.96
+     }
+    ]
+   },
+   "skill_dex_vs_no_change": 0.338
+  },
+  "sun_reopen": {
+   "n": 81,
+   "no_change": {
+    "crps_bp": 65.396,
+    "mae_bp": 84.403,
+    "coverage80": 0.7654,
+    "pit_hist": [
+     6,
+     3,
+     4,
+     4,
+     8,
+     8,
+     12,
+     13,
+     10,
+     13
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.1358
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.1975
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.2716
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.3951
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.4691
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.6049
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.679
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.7654
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.8765
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.9259
+     }
+    ]
+   },
+   "dex": {
+    "crps_bp": 14.811,
+    "mae_bp": 18.469,
+    "coverage80": 0.8642,
+    "pit_hist": [
+     5,
+     5,
+     12,
+     10,
+     14,
+     5,
+     6,
+     7,
+     11,
+     6
+    ],
+    "reliability": [
+     {
+      "nominal": 0.1,
+      "realised": 0.1358
+     },
+     {
+      "nominal": 0.2,
+      "realised": 0.2346
+     },
+     {
+      "nominal": 0.3,
+      "realised": 0.358
+     },
+     {
+      "nominal": 0.4,
+      "realised": 0.4321
+     },
+     {
+      "nominal": 0.5,
+      "realised": 0.5185
+     },
+     {
+      "nominal": 0.6,
+      "realised": 0.6667
+     },
+     {
+      "nominal": 0.7,
+      "realised": 0.8272
+     },
+     {
+      "nominal": 0.8,
+      "realised": 0.8642
+     },
+     {
+      "nominal": 0.9,
+      "realised": 0.9259
+     },
+     {
+      "nominal": 0.95,
+      "realised": 0.9506
+     }
+    ]
+   },
+   "skill_dex_vs_no_change": 0.7735
+  }
+ }
+}
