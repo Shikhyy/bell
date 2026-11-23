@@ -1,0 +1,2612 @@
+{
+ "tokens": {
+  "TSLAc": "0xb2000000000000000000001e800a7f5189430cD0",
+  "GOOGLc": "0xb2000000000000000000002D0BA3164cc74f58B7",
+  "SNDKc": "0xb200000000000000000000397293Cb8cda9a10c5",
+  "MSTRc": "0xb2000000000000000000004884b426556b92883d",
+  "NVDAc": "0xb20000000000000000000078ee7ce2fE4908108C",
+  "SPCXc": "0xb2000000000000000000007b9fcbd005511aCBd5",
+  "METAc": "0xb2000000000000000000008bC8786B856E61707C",
+  "MSFTc": "0xB200000000000000000000Ab99cFa739E253872B",
+  "AAPLc": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+  "AMZNc": "0xb200000000000000000000d9192b6B456483C2E8"
+ },
+ "pools": [
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x342af3dc58e331704cd79b187098e43cc7bf76b7938e3bf63aa1b2f3b2d9e965",
+   "base": "TSLAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 26023.43,
+   "vol24": 2507.29
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x53923698aed2fa7c609736c96dad26625270421f57af19b1c81b69865d46c55a",
+   "base": "TSLAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 976.98,
+   "vol24": 29.85
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x4fc072efd5b059d74c88fac31fc0c8ea17a16e7c3fd7b888ac891c02d8c7389d",
+   "base": "TSLAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 98.94,
+   "vol24": 1.88
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x7A33000372f3F028f074182CCb9d16cBEEfBF920",
+   "base": "TSLAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 483034.27,
+   "vol24": 5809432.11
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x469337fDcc5E8f38e2E4B670B04F57865D13a7BB",
+   "base": "TSLAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 28708.03,
+   "vol24": 1443.66
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xa8a821935114fa692fd277f3a02d7c907f24accbe6b6a7789f29213f2e07f303",
+   "base": "\ud83c\udf198",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": 71.98,
+   "vol24": 0.69
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xcc810e9a3ea08b7316cc8adf71f6ced5b29f7dd70075b4e1f2abb40241867885",
+   "base": "NIKOLA",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": 4371.79,
+   "vol24": 3.27
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x937531455521AAA0709B0aE57EA5ac88F2eB8218",
+   "base": "rETH",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": 5694.5,
+   "vol24": 23.4
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xbf3f4a64d8e4301b59e597d96712001568188e8b6e49315629fc896a611190d9",
+   "base": "ELON",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": 454.88,
+   "vol24": 1.51
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x7165b9544d65062268995debf5f11Aeefc20d079",
+   "base": "TELN",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": 3495.39,
+   "vol24": 0.73
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xf5ad6f36c7dcab7fc89f607f65c4a764151ab7ff666019f463f454e5bcc1567d",
+   "base": "SMB",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": 7.15,
+   "vol24": 0.17
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x678c55d37c028d72ea0edd0dba480e10efe6684854251ef01a1475dea181bccc",
+   "base": "SYNCT",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": 4.53,
+   "vol24": 0.14
+  },
+  {
+   "symbol": "TSLAc",
+   "token": "0xb2000000000000000000001e800a7f5189430cD0",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x6b423a2cad35d89f8fba134123c95d463fb2b7971134ec031ef3cd4d75488dd8",
+   "base": "HUMBLE",
+   "quote": "TSLAc",
+   "quote_addr": "0xb2000000000000000000001e800a7f5189430cD0",
+   "liq_usd": null,
+   "vol24": 0.01
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x16c70F04C3080a127486Cdf5a4C33c066bBF47C3",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1544923.95,
+   "vol24": 10995777.26
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x0cABC1f570FC7E80aF454b5bC839b4014B4AcFd1",
+   "base": "GOOGLc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 73045.66,
+   "vol24": 451971.98
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xB1987CAD1682841b4b641d50E520777eC5Ab5542",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 201420.25,
+   "vol24": 4168.4
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x1f52F46BaC657564c31122b12b43A459E09273C8",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 40413.75,
+   "vol24": 1131.61
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x5dfc32bfb5ec664a8be2844a1e564847e34f210d7f820d500312f85ab47e9ff9",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 26201.34,
+   "vol24": 3640.51
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x8634EE4145A63E40E44e12A6Bb1B905Fcb8856a6",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 11296.46,
+   "vol24": 453.78
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "pancakeswap",
+   "labels": null,
+   "pair": "0x69dec50977fC57eCEcA472105c26F188FF2012ec",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 9882.06,
+   "vol24": 767.94
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "solidlycom",
+   "labels": null,
+   "pair": "0x82D87A572Af2672aE6105664E4Af1d1499A41F51",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 7541.91,
+   "vol24": 830.83
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "nami",
+   "labels": null,
+   "pair": "0x00BaeedB7F9e7C990Af09FC882cF92778F652444",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 5809.7,
+   "vol24": 2324.03
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x735481df7daf09329b7eef032fba1d284362c91d3271a147869c805d029a2e13",
+   "base": "GOOGLc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 2210.54,
+   "vol24": 1261.4
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x25F63549b2Bb9ffF114cDc39e8cfb16B450E2f9b",
+   "base": "GOOGLc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 1561.71,
+   "vol24": 307.75
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe87a417958bf5a93d523470981eb10e610998dbac113792088680afc54473f91",
+   "base": "GOOGLc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 3102.39,
+   "vol24": 0.03
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xb9d74746709d4fc11879097476c4a2d4def0eb5f277ffd3887b4444bff8056b0",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 956.38,
+   "vol24": null
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x6c6d2723bff45647b74932218ca10422f472bcfb626d31545c7ceb68b4e580bb",
+   "base": "GOOGLc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 147.67,
+   "vol24": 13.16
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xb8d915726cbfac627d236fe58e0af8d2d128c02afee278d54644a61cb13e6f2e",
+   "base": "GOOGLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 76.74,
+   "vol24": 0.45
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xb1fa2a9c7395f39301df2efde05565dfc95fc372605860840a9d501ed4660121",
+   "base": "GOOGLc",
+   "quote": "NVDAc",
+   "quote_addr": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "liq_usd": 10.7,
+   "vol24": 1.26
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0x0d1518a9b2243F034a119A629B8F5170D59965b3",
+   "base": "GOOGLc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 19.04,
+   "vol24": 0.18
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xae51c0fcb0f1efeda60f4121f66b2302952c46d2e9bb22beb134fe6c618be9ed",
+   "base": "gSPEED",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 28634.02,
+   "vol24": 546.2
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xdB3F4aB8225Ff86d5574fb87b2CaD86a7DF7DcBf",
+   "base": "MAG7",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 16310.18,
+   "vol24": 5.24
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x69bbadafdb28b6952c2910bed1d49fb1b11a222cbf36143fc1aca3c26b35c28e",
+   "base": "RAWR",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 14690.77,
+   "vol24": 134.89
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xdef4ee81924e318ca8914e73cf5f9e69686c9c2cdb8b6eaba2e30a1c5c5c9baa",
+   "base": "TREX",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 18918.65,
+   "vol24": 47.62
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xa42281c322963f3a842d7ef4df857fd7b19ae53d820bf2e5d9749edaa9e0949a",
+   "base": "\ud83c\udf198",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 66.04,
+   "vol24": 1.67
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x76f67310e5d6227702fed15d09afb86235bebc706db077a89cdaea4afa8d64b1",
+   "base": "DOG",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 519.99,
+   "vol24": 2.86
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x3e3fcc684c9cbac45db1c1de8322ea20510423bc868e93f362250dce654bb038",
+   "base": "SOUP",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 3986.24,
+   "vol24": 2.94
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x73b23c224fdac327f017dfa24b6887a4f59705c843f65ed6d83867a18a238bb3",
+   "base": "GLUEGLE",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 8120.46,
+   "vol24": 0.63
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x37dbd366a005375fb122926b5b82c81c12a30ef080faf4bceb16295467916fc7",
+   "base": "BASED",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 15.8,
+   "vol24": 3.49
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x5e7Fe8ADAEFAb50B51D806767F33b1D15cCf4201",
+   "base": "frxUSD",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 1314.98,
+   "vol24": 803.22
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x2fa2510ebb06a7d7d4cefc69b7a0b725c801dbe7b38a1721f88e04f9131724bd",
+   "base": "SMB",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": 24.93,
+   "vol24": 0.31
+  },
+  {
+   "symbol": "GOOGLc",
+   "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0xC0fD714A5CF89780846DcD75Fd3a01906Dac2E3e",
+   "base": "wtGOOGL",
+   "quote": "GOOGLc",
+   "quote_addr": "0xb2000000000000000000002D0BA3164cc74f58B7",
+   "liq_usd": null,
+   "vol24": null
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x2836e062a3fe75943a7F4A552E2365b98E414E75",
+   "base": "SNDKc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1387605.09,
+   "vol24": 17497975.85
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x5A8236f575471e7BfCA2C8462a200c28f737246E",
+   "base": "SNDKc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 36776.57,
+   "vol24": 14353.25
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xd8f0e90ba2c1437041a1a2e99fc723a608bd5638de173996566296fee1a08ea4",
+   "base": "SNDKc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 7978.78,
+   "vol24": 1569.33
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x26fa54cdfc64fAacb5364c09De7Ac2F72308052D",
+   "base": "SNDKc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 5339.53,
+   "vol24": 616.72
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xdcfcac24000af6cc869a2eca5580184f6bb50443839aa3e7c3609d1e3bbf63a9",
+   "base": "SNDKc",
+   "quote": "MUc",
+   "quote_addr": "0xb200000000000000000000Fd2f87532B90095211",
+   "liq_usd": 1800.26,
+   "vol24": 36.4
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x7769cc517e6da67c9ed56f040c00d8c661a2e0428c34c152a2517643225189e3",
+   "base": "SNDKc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 832.51,
+   "vol24": 108.22
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x05ec128b2480d90973AB113F027B189dfFf651ED",
+   "base": "SNDKc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 15.91,
+   "vol24": 0.28
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xE31252570F7470e8eF339871b1F3B11A6F7f9E0e",
+   "base": "SKHYc",
+   "quote": "SNDKc",
+   "quote_addr": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "liq_usd": 198.71,
+   "vol24": 68.38
+  },
+  {
+   "symbol": "SNDKc",
+   "token": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x8cd68a6bc2a926550deb3e29e5ce8f23d6b4fb72b38dab8affa9e9dc44ac922a",
+   "base": "\ud83c\udf198",
+   "quote": "SNDKc",
+   "quote_addr": "0xb200000000000000000000397293Cb8cda9a10c5",
+   "liq_usd": 43.51,
+   "vol24": 0.23
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x051bdaefdb5714412b33b185464ea8c72e2798954c030f7394857743c996b1de",
+   "base": "MSTRc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 91863.92,
+   "vol24": 2215.78
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x6A4bDE311fdaB8BCEC7b040950275081308b852b",
+   "base": "MSTRc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 23347.33,
+   "vol24": 2753.69
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0xc42C70DFeaaEE004E0740beE8b2A0a3807F8560c",
+   "base": "MSTRc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 13522.2,
+   "vol24": 786.63
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x0ecc74c47acad38f5b000f1c35ec6da167db8a20f5531c95b8586b2ad56dd5af",
+   "base": "MSTRc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 11238.29,
+   "vol24": 183.37
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xd7dbb4670730bf337f8d4d257636e75205ffb9245dd4e78a8ae549e66af9690a",
+   "base": "MSTRc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 6539.25,
+   "vol24": 64.06
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0x7323d5fF1aC3d07A800A89dC1E2D6C7bACA9C720",
+   "base": "MSTRc",
+   "quote": "wtMSTR",
+   "quote_addr": "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
+   "liq_usd": 1974,
+   "vol24": 580.35
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe9a0355facc27cb41f08a4a30b5ab5b0ee25c95377d04c378e14eec9a3edc32d",
+   "base": "MSTRc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 904.07,
+   "vol24": 123.61
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x326f2357fc9a991fd1f134c0977d96ae9b3857c4d938083b5944aaeaa2e2e0b7",
+   "base": "MSTRc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 706.34,
+   "vol24": 126.68
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x66DCd42E6314B287110922AE36cB2a8bdEECc153",
+   "base": "MSTRc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 469806.65,
+   "vol24": 12035519.09
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x988B949de9d3A3d2172F22C19694c7a5148c9E87",
+   "base": "MSTRc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 350312.21,
+   "vol24": 3565788.83
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x8b27f626ab668197000BC722A1012022CAeD10E2",
+   "base": "MSTRc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 116448.93,
+   "vol24": 36132.4
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x1c7267e3db2380a5fecb5926486ee71bc0af6be2564b809ab870d74804be75bd",
+   "base": "MSTRc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 73.32,
+   "vol24": 1.25
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "nami",
+   "labels": null,
+   "pair": "0x60B36E1F414f9FA1052C68AB4791Fa4640E6c8A6",
+   "base": "MSTRc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1419.88,
+   "vol24": 664.28
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xc66227927984cfede9c9382bcd0ff2d3787a5d095f5679f3b7e00af66adc5daa",
+   "base": "MSTRc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 21.91,
+   "vol24": 0.49
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "equalizer",
+   "labels": null,
+   "pair": "0xCC2cb77d25EFAF5f4516eb1cfC01d876bef27Ca2",
+   "base": "MSTRc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 14.88,
+   "vol24": 0.17
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xf355c655802b33094552c16e091612afd81678ed2d267d7e4af37a895a865710",
+   "base": "LINK",
+   "quote": "MSTRc",
+   "quote_addr": "0xb2000000000000000000004884b426556b92883d",
+   "liq_usd": 63371.47,
+   "vol24": 0.03
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x0e48c892aa5f99ea62c1122a9661ffbab856bb9a7bf8b5a1242ad46f0017d180",
+   "base": "BRTC",
+   "quote": "MSTRc",
+   "quote_addr": "0xb2000000000000000000004884b426556b92883d",
+   "liq_usd": 11500.15,
+   "vol24": 156.38
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x5a9400426114A95F03322f67f2A3f22f906026c2",
+   "base": "BITCOIN",
+   "quote": "MSTRc",
+   "quote_addr": "0xb2000000000000000000004884b426556b92883d",
+   "liq_usd": 4029.35,
+   "vol24": 126.77
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xf0c5795cde743a850df0440ad586a978582ee59d0afc0a10564ed537fd19a5cc",
+   "base": "PLAYER",
+   "quote": "MSTRc",
+   "quote_addr": "0xb2000000000000000000004884b426556b92883d",
+   "liq_usd": 7799.06,
+   "vol24": 70.88
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x2bc5f33fb55229e23c56cdf56c1ffb9ec031cdbb0696a38336897a886190372f",
+   "base": "INFI",
+   "quote": "MSTRc",
+   "quote_addr": "0xb2000000000000000000004884b426556b92883d",
+   "liq_usd": 0.19,
+   "vol24": 0.01
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x63EFABC5D0f686644A60c1fa07c7140203A9f48A",
+   "base": "frxUSD",
+   "quote": "MSTRc",
+   "quote_addr": "0xb2000000000000000000004884b426556b92883d",
+   "liq_usd": 462.59,
+   "vol24": 524.69
+  },
+  {
+   "symbol": "MSTRc",
+   "token": "0xb2000000000000000000004884b426556b92883d",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xfc20bc6b8e16c3ce9d8f1544b2b75f5c0d41b43115466e494b8036437ab96255",
+   "base": "HALLOWEN",
+   "quote": "MSTRc",
+   "quote_addr": "0xb2000000000000000000004884b426556b92883d",
+   "liq_usd": null,
+   "vol24": 0.63
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xF668e21993f0ACd7ab00BB1cFbAeD0df28A3C8EC",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1321067.47,
+   "vol24": 13408431.66
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xCe56168C09f4B7FCa30523822C48008705C01156",
+   "base": "NVDAc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 121645.7,
+   "vol24": 1560060.4
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x41084f2d35b54dc0d070fbf76aa52c46f5d9c7e36c163252064b6b184d9429d9",
+   "base": "NVDAc",
+   "quote": "BLUECHIP",
+   "quote_addr": "0xB200000000000000000000cFbdF64a8706a94a01",
+   "liq_usd": 130255.92,
+   "vol24": 78463.2
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x853F5f1B92b16714Fe6CDA67CAad0856B83C7ab9",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 255128.73,
+   "vol24": 4005.58
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x8e740D5Fa742B763cD82159894b9919eD57E4f70",
+   "base": "NVDAc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 45762.88,
+   "vol24": 28742.18
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xb21769526e3a0814752628ec6c6e08efc883a025a18c64ee3ad376aa67728a18",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 50490.04,
+   "vol24": 5.25
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x60661b315553EB81872deEA9a66d567Cf0CCd33B",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 39869.41,
+   "vol24": 20594.98
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xc8c52ec416fe9d3b6e70a2e4ccde7cece3b8318d109a1aa1bbc7e0980c4fe985",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 28818.57,
+   "vol24": 40.51
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x9849c9b8e9dc57a7966bb5d5267b9b2a1192e3c12d7b90e828918a89e5cff7f3",
+   "base": "NVDAc",
+   "quote": "KAI",
+   "quote_addr": "0xca18A528Ea897040f715edC92e6e4572780c5ca1",
+   "liq_usd": 18824.56,
+   "vol24": 672.66
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x91a34c94c5a2f34fbc7e2c0b2f1c6419dffea5c631289a35ce0a4be1759c52b6",
+   "base": "NVDAc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 14011.04,
+   "vol24": 2052.87
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xc6406d4628b7a4657f28fad1bb4ac04d618766e3ace0080f8cf86cd1f9f32d5e",
+   "base": "NVDAc",
+   "quote": "WBTC",
+   "quote_addr": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+   "liq_usd": 9604.55,
+   "vol24": 2916.44
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x20E5fAd2661Ee9Eb0c04824524030AF31943B62D",
+   "base": "NVDAc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 6823.4,
+   "vol24": 1413.47
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "nami",
+   "labels": null,
+   "pair": "0x337beA70489CD71a8C3951C1Aa49C637b4b9B122",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 8718.05,
+   "vol24": 675.29
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0x3e8126A4a5DF68DD9cCA675E8dc925B5FED70CA9",
+   "base": "NVDAc",
+   "quote": "wtNVDA",
+   "quote_addr": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+   "liq_usd": 886.44,
+   "vol24": 1000.94
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "topaz",
+   "labels": null,
+   "pair": "0x19cCE0486BB8b36C525E74445A28A2449EE4b2BD",
+   "base": "NVDAc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 96.63,
+   "vol24": 218.61
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x4c3b9468826488691c7ffabdadccf1d3fe2641605959616e39e50669b7dd89ed",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 762.27,
+   "vol24": 10.23
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xbf07b8fba9d4729b1460c2c382cbdec5f7ffc17e11b01ab70fa3740a581f1e8e",
+   "base": "NVDAc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 169.76,
+   "vol24": 35.47
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x2a53b9864409314d120744d99767bb9175a5738258c717aa264c841b2fc227de",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 79.25,
+   "vol24": 4.29
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0xFe27C510b1fC9B926c0a144597a62813564a189B",
+   "base": "NVDAc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 81.23,
+   "vol24": 1.81
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x4bc898b46d24e6d725caf1a6728d37d85737c2d78fc4c9e13df1c39cd1c97971",
+   "base": "NVDAc",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 73.53,
+   "vol24": 0.16
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x393c3df71a9cb64f63aa9120eb7584ddc2dc38712df320999dc5b9a1ad56ee13",
+   "base": "NVDAc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 40.56,
+   "vol24": 1.23
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "equalizer",
+   "labels": null,
+   "pair": "0xaf37c58BAaD0dF59bBAe19B7Ee17afC93Db8bDF5",
+   "base": "NVDAc",
+   "quote": "VVV",
+   "quote_addr": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+   "liq_usd": 25.98,
+   "vol24": 0.91
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xae5d1c714c2bcd537f5cb8b5fddfa9d8ee6b107c500e13b105ff33601c2bb8ea",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 0.07,
+   "vol24": null
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "equalizer",
+   "labels": null,
+   "pair": "0x345D4337134A718B0F62C56ed5b82aF033e4237D",
+   "base": "NVDAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 15.14,
+   "vol24": 0.04
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xEA32F5813CDd23598B6b8b37AC873596DD4936Ea",
+   "base": "NVDAc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 0,
+   "vol24": null
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x7806872F3C157c547f7304D2227D62baAdeEAf87",
+   "base": "NVDAc",
+   "quote": "VVV",
+   "quote_addr": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+   "liq_usd": 0,
+   "vol24": null
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xCcb9d8152Fe783FaDa0f86e87551a1423eA69577",
+   "base": "NVDAc",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": null,
+   "vol24": null
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xa3fe6f4820e80449a5d6952901058c2748a999bb3a84bee298b88e61e84825c6",
+   "base": "\ud83c\udf198",
+   "quote": "NVDAc",
+   "quote_addr": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "liq_usd": 55.42,
+   "vol24": 0.6
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe9f61a0beb0f9a8a646d0666a526b5582477a6b002aa0b0afc4234608e1d43b0",
+   "base": "WOOF",
+   "quote": "NVDAc",
+   "quote_addr": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "liq_usd": 4791.6,
+   "vol24": 2.09
+  },
+  {
+   "symbol": "NVDAc",
+   "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x4278F56e09986147D168BbC3460f7Ba4c9208D55",
+   "base": "APU",
+   "quote": "NVDAc",
+   "quote_addr": "0xb20000000000000000000078ee7ce2fE4908108C",
+   "liq_usd": 430.97,
+   "vol24": 24.7
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x880dB7Dda4407D99508574E680d067D1164B3cFE",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 911182.22,
+   "vol24": 6398413.83
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x0bf58fe0FAc935Ac69595c19B12Ba0d75E3F8c0E",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 118398.93,
+   "vol24": 971.82
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe9f4ba63ecba8bc9eb5193700f0bee42806ad47d6248657633340ac7049adcf4",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 58244.59,
+   "vol24": 1016.69
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x127a12FC0953ab2ab89558c67Ba6D597D7140431",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 10200.51,
+   "vol24": 137.02
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x7bda51ce3c596230c21d4dfec0268c0d8bcb1b2ca38c41fb18fd3d295ef09a48",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 9691.11,
+   "vol24": 37.2
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xeb0c9976604b3a0724F2818ca1f443558fC551Ac",
+   "base": "SPCXc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 3273.32,
+   "vol24": 584.88
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x7bdE436cC2Cb4d9C909607576C8DBfeFcdCE2f8d",
+   "base": "SPCXc",
+   "quote": "AAVE",
+   "quote_addr": "0x63706e401c06ac8513145b7687A14804d17f814b",
+   "liq_usd": 828.79,
+   "vol24": 26.99
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xbff93728ac507c40699cc877be1e0f06f515daacdd36e4efa63664e986b705a4",
+   "base": "SPCXc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 914.97,
+   "vol24": 16.36
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x97baa57e7869f374abedae3ec90a5d63d6de5538cecdbfa509a3565e7bb674ed",
+   "base": "SPCXc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 81.05,
+   "vol24": 1.89
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x92dacb03f5422696c8a1b24fe89b9d42f45efea35c1dc043b24558c73c4d5567",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 314.77,
+   "vol24": 0.26
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "pancakeswap",
+   "labels": null,
+   "pair": "0xCcceB685667FE6e3464248167747ec746b93581D",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 133.03,
+   "vol24": 0.59
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x41c0AD5a10EcEE2B2737CD3bdECED3C7e6166A6B",
+   "base": "SPCXc",
+   "quote": "cbBTC",
+   "quote_addr": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+   "liq_usd": 83.2,
+   "vol24": 1.78
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0xE08e2EDA9ce04009274Cf6E6543F9A234Bd910D2",
+   "base": "SPCXc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 12.82,
+   "vol24": 1.51
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xfd616e10311Ac827FA953cA04f62Fb2B054d8Da6",
+   "base": "ElonRWA",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 29964.44,
+   "vol24": 1932.16
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x63d8d458d63d18a7a5941575105f5c6521170854d85c141de96afdeaaa803776",
+   "base": "MOONBASE",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 16194.39,
+   "vol24": 197.58
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x4bc898b46d24e6d725caf1a6728d37d85737c2d78fc4c9e13df1c39cd1c97971",
+   "base": "NVDAc",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 73.53,
+   "vol24": 0.16
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x0acd73ca6184fabad8fffc9dd4c9133356801d61fb70b1c9175d4f0cb349d4c2",
+   "base": "BG",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 249.38,
+   "vol24": 9.33
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe17da12a125181121ce03d4d3c0d37f0e2a1f06a0e7f644c3bdf6338d6a03247",
+   "base": "\ud83c\udf198",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 67.8,
+   "vol24": 0.69
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x4fc0021BdD59f5DbAE07fA6F070677fc202cf161",
+   "base": "MOONBASE",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 183.01,
+   "vol24": 2.48
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "equalizer",
+   "labels": null,
+   "pair": "0x8743318591c0aECb9C013abb86702A5d4127529a",
+   "base": "OPP",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 2429.13,
+   "vol24": 6.06
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x757eb0b41aa2a25220ab4852eb743733dbdf63b97219a478042e181aa0c3d7a8",
+   "base": "MAX",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 3968.17,
+   "vol24": 57.35
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x7587f8f967db29dc4a1f04dd56379c039cace00f8302eac90fba5e742f7f55d5",
+   "base": "MC018",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 3442.39,
+   "vol24": 242.35
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe96ff9ab25927c0d4f6226a69c11097ffb4e3b41e5be35de4761a4c6328775ec",
+   "base": "INFI",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 0.11,
+   "vol24": null
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xc99EF872C8fDbd781D16675132F75Add81AF07BB",
+   "base": "OMGSUP",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 11516.25,
+   "vol24": 0.26
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xA044B7dD71993F47171A402dB8853c30A822f8D5",
+   "base": "DICKBUTT",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": null,
+   "vol24": null
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x45d8d7f8affa4a9b8083525e824cd9ae327f4c57aefbcfba9344d433fa9c95c8",
+   "base": "ELONSTAR",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 3958.17,
+   "vol24": 10.65
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x764CDEEbd5Cb4384e87DE185A39A6e1b8917f47B",
+   "base": "EGUY",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 4055.82,
+   "vol24": 0.28
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x7ca0d4c94c33e25befb1b375792683e431cf85bcc4f4aa15f5a3896f84d8549c",
+   "base": "UrAnus",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": null,
+   "vol24": 6.88
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x5d020084793dddb8c5270ce450ff8c9fd08809889b529d23180badebf7da098e",
+   "base": "MARSBASE",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": 194328.72,
+   "vol24": 43646.42
+  },
+  {
+   "symbol": "SPCXc",
+   "token": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0x26E2015404f2c08F0c2ACe4c5eEbBB6233C07d67",
+   "base": "wtSPCX",
+   "quote": "SPCXc",
+   "quote_addr": "0xb2000000000000000000007b9fcbd005511aCBd5",
+   "liq_usd": null,
+   "vol24": null
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xd072410fa13D242e1d53721Bcf7AF02e3455DC96",
+   "base": "METAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 759937.55,
+   "vol24": 11657102.52
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xEAF57753BC382E0324a1D43F72E7027705a2273E",
+   "base": "METAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 93525.22,
+   "vol24": 3467.76
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xfe1072a64a6cc77c366778081b1e2313dab0042975aa925cdf4a6ca056ae3828",
+   "base": "METAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 26148.79,
+   "vol24": 2377.22
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xB305829bBB29f21f760c8EE23c021E603A2Db416",
+   "base": "METAc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 12727.13,
+   "vol24": 29659.45
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x583919ec1975a1238C50e1940911894ee6912476",
+   "base": "METAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 3936.98,
+   "vol24": 624.68
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x871a120885a1bad056fd330fd791d75b24d4dd00778b169f95629ac9abc7221d",
+   "base": "METAc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 1384.4,
+   "vol24": 826.93
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "nami",
+   "labels": null,
+   "pair": "0x6dBf1772aEe6f453C6daFE705bB388685d5DF1EA",
+   "base": "METAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1702.51,
+   "vol24": 317.28
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xac81669dc9d0a3e6229eb4ce17552b38d9e5d4649baa3ffadafa9a4a21789f23",
+   "base": "METAc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 486.86,
+   "vol24": 22.74
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x5d4a800e79de977d5f540deee346c81e5061dd4741c0d23ed47924a025e5b897",
+   "base": "METAc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 44.77,
+   "vol24": 1.33
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0xEC2800d4A96B40D1A387a49aa9c9861d2cE3454F",
+   "base": "METAc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 43.48,
+   "vol24": 4.57
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x9B6EA8352AC4010a779Ad780c22ee2F42Af39D84",
+   "base": "METAc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 3.73,
+   "vol24": 0.04
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x357339183802d1f4342e7d033cb9b898a6dca298ec73dcf23e5014b8858ddbdc",
+   "base": "METAc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 10.59,
+   "vol24": 0.14
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x0e7b0302cc223f1a57ea8de93959a36c8ba4f510c73a5f5b2eba5795625586f1",
+   "base": "\ud83c\udf198",
+   "quote": "METAc",
+   "quote_addr": "0xb2000000000000000000008bC8786B856E61707C",
+   "liq_usd": 69.56,
+   "vol24": 0.64
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "equalizer",
+   "labels": null,
+   "pair": "0x574edceF8ED01fABDe8bc55717e83516E8Ab8343",
+   "base": "OPP",
+   "quote": "METAc",
+   "quote_addr": "0xb2000000000000000000008bC8786B856E61707C",
+   "liq_usd": 182.4,
+   "vol24": 0.75
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x5db3d5abeb3195fd0837dda3d88a539cb0be830da0ae75fa07a4fd7a61d44d6a",
+   "base": "LLAMA",
+   "quote": "METAc",
+   "quote_addr": "0xb2000000000000000000008bC8786B856E61707C",
+   "liq_usd": 6214.32,
+   "vol24": null
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xa7813d5bffebaafa67156b5ef8dd5c361c7b0ee080626422f7bdbf03dac75025",
+   "base": "PI",
+   "quote": "METAc",
+   "quote_addr": "0xb2000000000000000000008bC8786B856E61707C",
+   "liq_usd": 3666.49,
+   "vol24": 356.87
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x1e989cc2e51f691fd03324d364dbce466e524ba8ff886c0c862b42f24e8b203d",
+   "base": "BASED",
+   "quote": "METAc",
+   "quote_addr": "0xb2000000000000000000008bC8786B856E61707C",
+   "liq_usd": 17.43,
+   "vol24": 3.9
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x9fD2b71814E7d2D0eAa6C8C639b62D686F70398b",
+   "base": "frxUSD",
+   "quote": "METAc",
+   "quote_addr": "0xb2000000000000000000008bC8786B856E61707C",
+   "liq_usd": 487.18,
+   "vol24": 95.26
+  },
+  {
+   "symbol": "METAc",
+   "token": "0xb2000000000000000000008bC8786B856E61707C",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x759822382a3c60fece8256cbc0e2eca941df5c5f78a45e5a6656e7d248c07988",
+   "base": "SMB",
+   "quote": "METAc",
+   "quote_addr": "0xb2000000000000000000008bC8786B856E61707C",
+   "liq_usd": 17.44,
+   "vol24": 0.5
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x2740C0faAb738F6e346e545fDE02aEF9B1A01ee7",
+   "base": "MSFTc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 440074.87,
+   "vol24": 4864911.55
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x38f481173df3c7c5f893cd95aed8731cff192d2406115aedc5f27836f311fa6f",
+   "base": "MSFTc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 26356.85,
+   "vol24": 3877.66
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x7103eB3c9590d1281f7dc03b2A9EE27C39dF5D54",
+   "base": "MSFTc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 15878.63,
+   "vol24": 3577.6
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0xD73cBeCC0F62C7C1704332ED119514d6d84DC607",
+   "base": "MSFTc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 8269.94,
+   "vol24": 439.39
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe61a2016e4128a5212bf2de9fc72a1b70a329efece51ab87142d0d44074e7064",
+   "base": "MSFTc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 998.81,
+   "vol24": 88.36
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x74586ad8218cf78f91f8628051cf9dea93a7e2bfdb8299d339239b3638071e74",
+   "base": "MSFTc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 11.7,
+   "vol24": 1.38
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe1cf04f5ee41823a17b3a85fec4cdd444c602f86e80c7a3914a44bac3c02c980",
+   "base": "\ud83c\udf198",
+   "quote": "MSFTc",
+   "quote_addr": "0xB200000000000000000000Ab99cFa739E253872B",
+   "liq_usd": 68.53,
+   "vol24": 1.51
+  },
+  {
+   "symbol": "MSFTc",
+   "token": "0xB200000000000000000000Ab99cFa739E253872B",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x173B165Fb7d66fbe4C12905Ff2B31aD5cA13F54b",
+   "base": "frxUSD",
+   "quote": "MSFTc",
+   "quote_addr": "0xB200000000000000000000Ab99cFa739E253872B",
+   "liq_usd": 600.56,
+   "vol24": 587.66
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xF5FCB9CDAFcE67d50AfEf298F88E709d2B946BA6",
+   "base": "AAPLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 371290.8,
+   "vol24": 6877778.61
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xA3b1E3f9747065e2073722Ff4c9027d3eA4994F0",
+   "base": "AAPLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 57851.46,
+   "vol24": 6868.69
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe48e5351265960ea686a5c6d23fea9897feb4a976206d2390c135d9ceeeabcbb",
+   "base": "AAPLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 27322.73,
+   "vol24": 2655.58
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x97F35d1E92795327614BE000cd18cba1Be2c1931",
+   "base": "AAPLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 21506.36,
+   "vol24": 12164.09
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0xBc9050D78d2D8d88F7536AF49d4007aEf469d7B4",
+   "base": "AAPLc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 4012.41,
+   "vol24": 4143.99
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xc6f2cc6c3d21f9497291b5c6b8a04ab4558958dcbce13da21e11e80e55e261f9",
+   "base": "AAPLc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 1821.69,
+   "vol24": 1292.38
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x6f3741139e087324fb023a1d5a1e038a343de15edba4409d6bf9c4b54db443ed",
+   "base": "AAPLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1017.25,
+   "vol24": 74.88
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x383e9df6cba05083605374e9cb414e49af22b6da5344c2ee3b0553621c27bb3f",
+   "base": "AAPLc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 378.11,
+   "vol24": 0.64
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x5600b2a8a21e22b9a74ac0d535289740d8d7b51962141d8e123a88b93dbad822",
+   "base": "AAPLc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 32.42,
+   "vol24": 0.49
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0x5D8a9bf50e2270C0C051Ef4A79a6Aa376A611E72",
+   "base": "AAPLc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 21.29,
+   "vol24": 0.64
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "equalizer",
+   "labels": null,
+   "pair": "0xb75C6AEa6560eb5A649284eEa5CfF67F12639bB5",
+   "base": "AAPLc",
+   "quote": "WETH",
+   "quote_addr": "0x4200000000000000000000000000000000000006",
+   "liq_usd": 44.91,
+   "vol24": 1
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xc2c2ed70b75192076b640094a2c5a1b88c020d9c61d98a608e281019e4fd5c9c",
+   "base": "AAPLc",
+   "quote": "ETH",
+   "quote_addr": "0x0000000000000000000000000000000000000000",
+   "liq_usd": 15.16,
+   "vol24": 0.15
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x851f65bcdf6485f15047d4dea1cf8cb60ad1a815bbed7d2e8373a32b954045e4",
+   "base": "IPOD",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 192680.95,
+   "vol24": 2816.66
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x622b79f93159ebeb3f530b478979767d6e301331ff31fdb23a20586f2bf42480",
+   "base": "\ud83c\udf198",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 76.81,
+   "vol24": 6.24
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x4a5fc0d81ade0fcc8d04ae2154d492a86b70bb2dddb0bf27131621fcf1034e4e",
+   "base": "WORM",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 5442.66,
+   "vol24": 170.24
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x75e4a239077a67587db08e1b68404593cff4581cf4003fa29746b0bf0160a7e0",
+   "base": "BASED",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 42.61,
+   "vol24": 18.14
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xe347c7fb19d857110ac41461b8b0dfe7db57c54554ed4c8d2506ea945e4eaea7",
+   "base": "BASED",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 18.52,
+   "vol24": 4.27
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x836fc4346C0915755538AAd018D09F3c1040CAd5",
+   "base": "frxUSD",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 1499.35,
+   "vol24": 1370.34
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xfbed0135cc59f866c6ba6929b8612686f57cb71cfb9242f4491976676d804a02",
+   "base": "APPLEINU",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 10199.32,
+   "vol24": 3.9
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xCcb9d8152Fe783FaDa0f86e87551a1423eA69577",
+   "base": "NVDAc",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": null,
+   "vol24": null
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x37d8e003d7dbcec5875a720b14bb71ab04c21f36c8a802562c5e684ffa0f11b8",
+   "base": "SMB",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 5.66,
+   "vol24": 0.28
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xcac9c73e84188cc72d6167fbfa0c83d34855d77110116c17a5631013ed20f9a3",
+   "base": "CORA",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": 3.03,
+   "vol24": 1.85
+  },
+  {
+   "symbol": "AAPLc",
+   "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "dex": "hydrex",
+   "labels": [
+    "CLAMM"
+   ],
+   "pair": "0xd944fE0B26aCFc28fD425390d96af83E14f95844",
+   "base": "wtAAPL",
+   "quote": "AAPLc",
+   "quote_addr": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+   "liq_usd": null,
+   "vol24": null
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x6e2f314be47e82c79adfbf724751d06971921cc3e66758ee65e9da804125fbc6",
+   "base": "AMZNc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 28364.77,
+   "vol24": 3983.7
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x7F030e5fD657795C0937a3e8af2929Fd90DA91C7",
+   "base": "AMZNc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 14947.49,
+   "vol24": 823.11
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x060acec380a49cd0f6ebd34ad1263052f95a84679a1127801daf3d0dd8e567ac",
+   "base": "AMZNc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1003.67,
+   "vol24": 115.49
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x532e0F46d1e528507FC9454d5847C231f23bDDf6",
+   "base": "AMZNc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1423897.02,
+   "vol24": 11938765.65
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xd03Bc8C7F2FAedCe2aac81bF0444AEA08Ea06E9b",
+   "base": "AMZNc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 46968.05,
+   "vol24": 92388.31
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "nami",
+   "labels": null,
+   "pair": "0xCa52071738a8E9e0EC820F80cA4B7E709Cf9Cc46",
+   "base": "AMZNc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 75.52,
+   "vol24": 4.46
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0x22Cf9B71933caC55b69f7cD9C6beB45A6Dde5c76",
+   "base": "AMZNc",
+   "quote": "USDC",
+   "quote_addr": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "liq_usd": 1.38,
+   "vol24": 3.12
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "uniswap",
+   "labels": [
+    "v3"
+   ],
+   "pair": "0x4bE684f77419999AA3E1162D25D9aE6FF64C05a0",
+   "base": "DGUY",
+   "quote": "AMZNc",
+   "quote_addr": "0xb200000000000000000000d9192b6B456483C2E8",
+   "liq_usd": 79488.68,
+   "vol24": 2506.38
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0x3513316e897e4424ee683a7d92c344c3b71a028048eb89b332af99758c20f731",
+   "base": "\ud83c\udf198",
+   "quote": "AMZNc",
+   "quote_addr": "0xb200000000000000000000d9192b6B456483C2E8",
+   "liq_usd": 69.15,
+   "vol24": 0.66
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "uniswap",
+   "labels": [
+    "v4"
+   ],
+   "pair": "0xc5d5e54f8c19147208dc7908efa46482230cf6275e7eba2c950fd019e1521e69",
+   "base": "gKAI",
+   "quote": "AMZNc",
+   "quote_addr": "0xb200000000000000000000d9192b6B456483C2E8",
+   "liq_usd": 1975.61,
+   "vol24": 0.5
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "aero",
+   "labels": null,
+   "pair": "0x702D901352a9b42E847197d39D84ed432f2A772a",
+   "base": "frxUSD",
+   "quote": "AMZNc",
+   "quote_addr": "0xb200000000000000000000d9192b6B456483C2E8",
+   "liq_usd": 896.34,
+   "vol24": 637.61
+  },
+  {
+   "symbol": "AMZNc",
+   "token": "0xb200000000000000000000d9192b6B456483C2E8",
+   "dex": "aerodrome",
+   "labels": null,
+   "pair": "0xd9482AE6b65734F8A2a059e128ce0E890bF85aEa",
+   "base": "frxUSD",
+   "quote": "AMZNc",
+   "quote_addr": "0xb200000000000000000000d9192b6B456483C2E8",
+   "liq_usd": 27.13,
+   "vol24": 1.24
+  }
+ ]
+}
