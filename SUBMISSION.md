@@ -15,7 +15,7 @@ will their oracle move most at tonight's reopen, and are any of these loans at r
 `bell_quotes` and `bell_liquidations` and answer from live Base data.
 
 ## Checklist
-- [ ] Run `ACCOUNT=<keystore name> contracts/demo.sh sepolia` (needs a funded Base Sepolia wallet; deploys the hook and drives it through a bell) and paste the tx links in the README
+- [x] Ran `contracts/demo.sh sepolia`: hook 0xBA4c45F3e694868791E3560030aC9f54B3C46080 on Base Sepolia, tx links in the README
 - [ ] Re-run the pipeline the morning you record, so the numbers are current
 - [ ] Record the demo (script below), ≤ 2 min, 1080p, mouse visible
 - [ ] Post on X tagging @buildonbase (draft below), then fill the submission form with the post link
@@ -47,4 +47,4 @@ Thread:
 2. 629 reopens, scored out of sample: Aerodrome's pre-bell price vs the frozen feed. [Ledger screenshot]
 3. What's left at the bell: $11.6k over 227 bells, median $11. The auction is tail insurance. [Auctions]
 4. BellHook: dark fee → onchain bell → priority-taxed auction → dawn. 21 tests. [code]
-5. Read-only analytics; hook on Base Sepolia. Code + data: [repo link]
+5. Read-only analytics; hook live on Base Sepolia (https://sepolia.basescan.org/address/0xBA4c45F3e694868791E3560030aC9f54B3C46080). Code + data: [repo link]

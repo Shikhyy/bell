@@ -112,8 +112,17 @@ $ contracts/demo.sh local
          34  swap  LIVE         0.05%     0.0000 gwei   0xd50ebd9433…
 ```
 
-The same script runs on **Base Sepolia** (`ACCOUNT=<keystore> contracts/demo.sh sepolia`), reusing Uniswap's deployed PoolManager
-and test routers, which I checked onchain. It needs a funded testnet wallet, so it hasn't been run there yet.
+The same script ran on **Base Sepolia**, reusing Uniswap's deployed PoolManager and test routers. Hook: [`0xBA4c45F3…`](https://sepolia.basescan.org/address/0xBA4c45F3e694868791E3560030aC9f54B3C46080). The real run, decoded from the hook's own events:
+
+| Phase | Swap fee | Priority fee | Tx |
+|---|---|---|---|
+| LIVE | 0.05% | 0 | [`0x5d40d144…`](https://sepolia.basescan.org/tx/0x5d40d14439c87c11565e71db15d328464beb030fdbd0f1ce72dfbb3b9613c6a7) |
+| DARK (feed silent) | 0.03% | 0 | [`0xb4ddbecd…`](https://sepolia.basescan.org/tx/0xb4ddbecd7283b0b52784e7440f80d8a4cfdff4cb7c94ca62d125ae1ad4299c47) |
+| **Bell**, then AUCTION (searcher A) | 1.00% | 0.001 gwei | [`0xbad96395…`](https://sepolia.basescan.org/tx/0xbad96395757171faa1d42904bbadf7324cd41c2d657ac070b8b32aa16094314d) |
+| AUCTION (searcher B outbids) | 4.00% | 0.004 gwei | [`0xeb4ab1da…`](https://sepolia.basescan.org/tx/0xeb4ab1da6095fe53bfe1fbdec49aba43b6eec59f1bb46ae09ad0eb77184f3955) |
+| LIVE again | 0.05% | 0 | [`0x8facb3e4…`](https://sepolia.basescan.org/tx/0x8facb3e45da5f4a448298a39e6a88f903c1fa96e95238c06f2e1bd274036e6f0) |
+
+The bell fired after 199 s of feed silence. It uses a mock equity feed and mock tokens, so the fees and the phase machine are real but the prices are not. Reproduce it with `ACCOUNT=<keystore> contracts/demo.sh sepolia`.
 
 <br>
 
