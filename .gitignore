@@ -1,0 +1,17 @@
+contracts/out/
+contracts/cache/
+research/.venv/
+**/__pycache__/
+.env
+*.env
+.DS_Store
+.ruff_cache/
+research/data/*_buggy.csv
+terminal/.next/
+terminal/node_modules/
+**/node_modules/
+contracts/lib/
+.claude/
+contracts/demo/state.env
+contracts/broadcast/
+contracts/cache/
