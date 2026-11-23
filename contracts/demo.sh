@@ -23,7 +23,10 @@ case "$MODE" in
     RPC="${RPC:-https://sepolia.base.org}"
     : "${ACCOUNT:?set ACCOUNT to a Foundry keystore name (cast wallet import <name> --interactive)}"
     SIGN=(--account "$ACCOUNT")
+    [ -n "${PASSWORD_FILE:-}" ] && SIGN+=(--password-file "$PASSWORD_FILE")
     export POOL_MANAGER=0x05E73354cFDd6745C338b50BcFDfA3Aa6fA03408
+    # Base Sepolia makes ~5 blocks/s and each forge script takes 10-30s, so widen both windows
+    export DEMO_DARK_GAP_S="${DEMO_DARK_GAP_S:-150}" DEMO_AUCTION_BLOCKS="${DEMO_AUCTION_BLOCKS:-200}"
     export SWAP_ROUTER=0x8b5bcc363dde2614281ad875bad385e0a785d3b9
     export LIQ_ROUTER=0x37429cd17cb1454c34e7f50b09725202fd533039
     [ "$(cast chain-id --rpc-url "$RPC")" = "84532" ] || { echo "RPC is not Base Sepolia (84532)"; exit 1; }
@@ -44,7 +47,11 @@ wait_secs() {  # advance simulated (local) or real (testnet) time
 }
 wait_blocks() {
   if [ "$MODE" = local ]; then cast rpc anvil_mine "$1" --rpc-url "$RPC" >/dev/null
-  else echo "   …waiting $(( $1 * 2 + 3 ))s for $1 blocks"; sleep $(( $1 * 2 + 3 )); fi
+  else
+    local target=$(( $(cast block-number --rpc-url "$RPC") + $1 ))
+    echo "   …waiting for $1 blocks"
+    while [ "$(cast block-number --rpc-url "$RPC")" -lt "$target" ]; do sleep 2; done
+  fi
 }
 
 echo "▸ 1/6  Deploy mock tokens, a mock equity feed, BellHook and a funded pool"
@@ -77,8 +84,14 @@ import json, subprocess, sys
 rpc, hook, start = sys.argv[1:4]
 PH = ["LIVE", "DARK", "AUCTION"]
 def logs(sig):
-    out = subprocess.run(["cast", "logs", "--rpc-url", rpc, "--from-block", start, "--address", hook, "--json", sig], capture_output=True, text=True).stdout
-    return json.loads(out) if out.strip() else []
+    head = int(subprocess.run(["cast", "block-number", "--rpc-url", rpc], capture_output=True, text=True).stdout.strip())
+    res, a = [], int(start)
+    while a <= head:  # public RPCs cap eth_getLogs at 200 blocks
+        b = min(a + 150, head)
+        out = subprocess.run(["cast", "logs", "--rpc-url", rpc, "--from-block", str(a), "--to-block", str(b), "--address", hook, "--json", sig], capture_output=True, text=True).stdout
+        res += json.loads(out) if out.strip() else []
+        a = b + 1
+    return res
 def words(d): d = d[2:]; return [int(d[i:i + 64], 16) for i in range(0, len(d), 64)]
 rows = []
 for l in logs("FeeApplied(bytes32,uint8,uint24,uint256)"):
