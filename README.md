@@ -19,7 +19,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square)
 ![Read only](https://img.shields.io/badge/trading-none%20%C2%B7%20read--only-64748B?style=flat-square)
 
-[The finding](#the-finding) · [Screens](#screens) · [BellHook](#bellhook) · [For agents](#for-agents) · [Architecture](#architecture) · [Run it](#run-it) · [Honest limits](#honest-limits)
+**[Live terminal](https://bell-terminal.embarko.app)** · [Paper](docs/paper.md) · [The finding](#the-finding) · [Forward test](#forward-test) · [Screens](#screens) · [BellHook](#bellhook) · [For agents](#for-agents) · [Architecture](#architecture) · [Run it](#run-it) · [Honest limits](#honest-limits)
 
 </div>
 
@@ -72,6 +72,20 @@ Context: LPs in Aero Slipstream stock pools on Base lost **169% a year before AE
 <td width="50%"><img src="docs/screenshots/ledger.png" alt="Forecast ledger"><br><sub><b>Ledger.</b> Reliability, PIT and per-boundary skill. Every score is out of sample.</sub></td>
 </tr>
 </table>
+
+<br>
+
+## Forward test
+
+A backtest can be tuned after the fact, so the repo also records forecasts **before** each bell and scores them afterwards.
+
+- `cli/src/forward.ts` writes `forward/predictions/<bell>.json` with the same numbers `bell quotes` serves, a Base block hash and a content hash. It refuses to run once any feed has printed after the bell.
+- The content hash is anchored in a Base Sepolia transaction ([`forward/anchors.md`](forward/anchors.md)).
+- `research/src/bell_research/forward.py` scores each stock against the first Chainlink round at or after the bell and writes `forward/results/` and `forward/summary.json`.
+- [`.github/workflows/forward.yml`](.github/workflows/forward.yml) runs both around every Sunday reopen and commits as the Actions bot, so the timestamps are GitHub's. The next one is **Sunday 29 Nov, 20:00 ET**.
+- The terminal shows the record live on its [Forward test](https://bell-terminal.embarko.app/terminal/forward) page.
+
+The first record is a rehearsal on the 25 Nov 09:30 ET open. A handful of bells is a handful of anecdotes; the point is that the process cannot see the outcome.
 
 <br>
 
@@ -220,7 +234,8 @@ contracts/   Foundry. BellHook.sol, 21 tests incl. fuzzing, CREATE2 deploy scrip
 keeper/      TypeScript (viem). Posts the forecast band as the auction reserve. Dry run by default
 cli/         the `bell` CLI and MCP server
 terminal/    Next.js 15. Landing, overview, tokens, auctions, ledger, research, agents, and the /api/v1 HTTP API
-docs/        screenshots
+forward/     pre-registered forecasts and their scores
+docs/        screenshots and the research note
 ```
 
 <br>
@@ -231,6 +246,7 @@ docs/        screenshots
 
 ```bash
 cd terminal && pnpm install && pnpm dev        # http://localhost:3000
+pnpm --dir cli install                         # then: pnpm --dir cli bell quotes (the CLI reuses the terminal's code)
 ```
 
 **Contracts**
