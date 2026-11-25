@@ -9,6 +9,7 @@ export default async function Calculator() {
   const data: CalcQuote[] = qs.map((q) => ({
     symbol: q.symbol,
     name: q.name,
+    price: q.oracle.price,
     band80Bp: q.nextOracleUpdate?.band80Bp ?? null,
     expectedMoveBp: q.nextOracleUpdate?.expectedMoveBp ?? null,
     label: q.nextOracleUpdate?.label ?? null,
