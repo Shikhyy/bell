@@ -98,7 +98,9 @@ export default function Calc({ quotes }: { quotes: CalcQuote[] }) {
   return (
     <div className="calc">
       <style>{`
-        .calc { display: grid; gap: 18px; max-width: 880px; }
+        .calc { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; max-width: 880px; width: 100%; }
+        .calc > * { min-width: 0; }
+        .calc .controls { min-width: 0; }
         .calc .hero { padding: 26px 26px 18px; background: radial-gradient(120% 140% at 0% 0%, rgba(255,158,74,.10), transparent 55%), radial-gradient(120% 140% at 100% 0%, rgba(120,180,255,.10), transparent 55%), var(--slate); }
         .calc .big { font-size: clamp(44px, 9vw, 76px); line-height: 1; color: var(--moon); }
         .calc .sub { color: var(--haze); font-size: 14px; line-height: 1.5; margin: 8px 0 0; }
@@ -107,11 +109,12 @@ export default function Calc({ quotes }: { quotes: CalcQuote[] }) {
         .calc .tile b { display: block; font-size: 24px; font-weight: 600; letter-spacing: -0.03em; margin: 4px 0 2px; }
         .calc .tile span { font-size: 12.5px; color: var(--haze); }
         .calc .clock { display: inline-flex; gap: 8px; align-items: center; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--hair-3); font-size: 12.5px; color: var(--soft); margin-bottom: 14px; }
-        .calc .holding { display: grid; grid-template-columns: auto 1fr; gap: 14px 16px; padding: 16px; align-items: center; }
+        .calc .holding { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px 16px; padding: 16px; align-items: center; }
         .calc .tick { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; font-weight: 700; font-size: 13px; letter-spacing: -0.02em; background: linear-gradient(160deg, #1b2740, #0f1420); border: 1px solid var(--hair-3); color: var(--dawn); }
         .calc .controls { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; }
         .calc select, .calc input[type=number] { background: var(--ground); color: var(--moon); border: 1px solid var(--hair-3); border-radius: 10px; padding: 9px 12px; font: inherit; font-size: 15px; }
         .calc input[type=number] { width: 150px; }
+        .calc select { flex: 1 1 220px; min-width: 0; max-width: 100%; }
         .calc input[type=range] { width: 100%; accent-color: var(--dawn); grid-column: 1 / -1; }
         .calc .preset { cursor: pointer; background: transparent; color: var(--soft); }
         .calc .preset:hover, .calc .preset[aria-pressed=true] { color: var(--moon); border-color: var(--dawn); }

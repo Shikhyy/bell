@@ -73,6 +73,7 @@ export default async function Landing() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: 22, marginLeft: "auto", fontSize: 14 }}>
             <a href="#how" style={{ color: "#C7CCD8" }}>How it works</a>
             <a href="#research" style={{ color: "#C7CCD8" }}>Research</a>
+            <Link href="/terminal/calculator" style={{ color: "#C7CCD8" }}>Calculator</Link>
           </div>
           <Link className="pill" href="/terminal" style={{ minHeight: 36, padding: "0 16px", fontSize: 14 }}>Terminal</Link>
         </nav>
@@ -86,7 +87,10 @@ export default async function Landing() {
             An opening auction for onchain stocks.<br />
             <span style={{ color: "var(--night-text)" }}>It rings when Wall Street wakes up.</span>
           </p>
-          <Link className="pill rise" href="/terminal" style={{ marginTop: 6, animationDelay: ".3s" }}>Open the terminal</Link>
+          <div className="rise" style={{ marginTop: 6, animationDelay: ".3s", display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center" }}>
+            <Link className="pill" href="/terminal">Open the terminal</Link>
+            <Link href="/terminal/calculator" style={{ color: "#C7CCD8", fontSize: 15 }}>What would the next bell cost you? →</Link>
+          </div>
           <span className="mono rise" style={{ fontSize: 12, color: "var(--night-text)", animationDelay: ".38s" }}>Research preview · reads live from Base</span>
         </div>
         <div style={{ position: "absolute", left: 24, bottom: 24, zIndex: 1 }}><ClockChip /></div>
