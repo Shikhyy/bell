@@ -75,6 +75,11 @@ Context: LPs in Aero Slipstream stock pools on Base lost **169% a year before AE
 
 <br>
 
+## For holders and LPs
+
+- **[Gap-risk calculator](https://bell.embarko.app/terminal/calculator):** enter what you hold in tokenized stocks and see the typical swing and the bad case at the next oracle update. Inputs stay in your browser.
+- **Bell calendar:** subscribe to [`/bells.ics`](https://bell.embarko.app/bells.ics) in any calendar app to get an alert 10 minutes before each oracle bell.
+
 ## Forward test
 
 A backtest can be tuned after the fact, so the repo also records forecasts **before** each bell and scores them afterwards.

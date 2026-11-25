@@ -90,7 +90,7 @@ export default async function Forward() {
         </div>
       )}
 
-      {runs.length === 0 && <p className="haze">No forecasts recorded yet. The next one is written 45 minutes before the Sunday reopen.</p>}
+      {runs.length === 0 && <p className="haze">No forecasts recorded yet. The next one is written 20 minutes before the Sunday reopen.</p>}
       {runs.map((run) => <Run key={run.file} run={run} />)}
 
       <p className="haze" style={{ fontSize: 12.5, margin: 0, lineHeight: 1.6 }}>
