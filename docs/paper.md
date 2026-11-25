@@ -50,7 +50,7 @@ Using pre-bell active liquidity and the move to the post-bell value, LPs lost \$
 
 ## 5. Forward test
 
-A backtest can be tuned after the fact. Starting 25 November 2026 the repository records forecasts before each bell (`forward/predictions/`), made by the same code that serves `bell quotes`, with a content hash anchored in a Base Sepolia transaction, and scores them afterwards against the first Chainlink round at or after the bell (`forward/results/`). A scheduled workflow does this for each Sunday reopen and commits as the GitHub Actions bot. Results so far are in `forward/summary.json`; with a handful of bells they are anecdotes, and we do not treat them as a second backtest.
+A backtest can be tuned after the fact. Starting 25 November 2026 the repository records forecasts before each bell (`forward/predictions/`), made by the same code that serves `bell quotes`, with a content hash anchored in a Base Sepolia transaction, and scores them afterwards against the first Chainlink round at or after the bell (`forward/results/`). A scheduled workflow does this for each Sunday reopen and commits as the GitHub Actions bot. The first record, a rehearsal on the 25 November 09:30 ET open, did not beat the frozen oracle: CRPS 62.0 bp against 59.1 bp, with the 80% band holding for 3 of 10 stocks. That forecast was locked 44 minutes before the bell, whereas the backtest centres on the pool price 30 seconds before it, so the test and the backtest differed in lead time and the market moved in between; the scheduled run now predicts 20 and 10 minutes before the bell. One bell is an anecdote, and we report it because a forward test that only shows wins is not a test.
 
 ## 6. Limits
 

@@ -95,7 +95,7 @@ export default async function Forward() {
 
       <p className="haze" style={{ fontSize: 12.5, margin: 0, lineHeight: 1.6 }}>
         Target: the first Chainlink round at or after the bell. Forecast: the Aerodrome price shortly before the bell, with a Laplace band whose
-        scale uses only past events. Baseline: the frozen oracle, with its own scale from the backtest. Descriptive estimates, not investment advice.
+        scale uses only past events. The backtest uses the pool price 30 seconds before the bell; a longer lead lets the market move before the print, so compare the lead time shown on each bell. Baseline: the frozen oracle, with its own scale from the backtest. Descriptive estimates, not investment advice.
       </p>
     </>
   );
