@@ -1,0 +1,214 @@
+{
+ "version": 1,
+ "bell": {
+  "at": "2026-11-25T14:30:00.000Z",
+  "unix": 1795617000,
+  "label": "Regular open",
+  "kind": "open_0930"
+ },
+ "madeAt": "2026-11-25T13:46:28.909Z",
+ "secondsBeforeBell": 2613,
+ "baseBlock": {
+  "number": 62120066,
+  "hash": "0x4c823dd79286aaf1b26142d23989d4d645635b7e5471afff3d20248533ee44f1",
+  "timestamp": 1795614388
+ },
+ "model": {
+  "ledgerSummarySha256": "ef714f0aed5b10ea20d00f124092ca1ff76d6abe1b2931b742cb8df8a6e3d1c2",
+  "commit": "0b1dca8ad909ed796ceb49c14d6e9ceeb461e0ef"
+ },
+ "skippedForMissingInputs": [],
+ "forecasts": [
+  {
+   "symbol": "TSLAc",
+   "frozenOracle": {
+    "price": 374.355,
+    "updatedAt": 1795597996
+   },
+   "dexPrice": 372.77,
+   "dexLiquidityUsd": 410686.78,
+   "scaleBp": 25.09,
+   "band80": [
+    371.27,
+    374.28
+   ],
+   "band95": [
+    369.98,
+    375.58
+   ],
+   "expectedMoveBp": -42.3
+  },
+  {
+   "symbol": "MSFTc",
+   "frozenOracle": {
+    "price": 480.464,
+    "updatedAt": 1795608669
+   },
+   "dexPrice": 479.77,
+   "dexLiquidityUsd": 382129.33,
+   "scaleBp": 25.09,
+   "band80": [
+    477.84,
+    481.71
+   ],
+   "band95": [
+    476.18,
+    483.39
+   ],
+   "expectedMoveBp": -14.4
+  },
+  {
+   "symbol": "METAc",
+   "frozenOracle": {
+    "price": 577.60719182,
+    "updatedAt": 1795612531
+   },
+   "dexPrice": 576.47,
+   "dexLiquidityUsd": 672425,
+   "scaleBp": 25.09,
+   "band80": [
+    574.15,
+    578.8
+   ],
+   "band95": [
+    572.15,
+    580.82
+   ],
+   "expectedMoveBp": -19.7
+  },
+  {
+   "symbol": "NVDAc",
+   "frozenOracle": {
+    "price": 146.58551175,
+    "updatedAt": 1795613494
+   },
+   "dexPrice": 146.052,
+   "dexLiquidityUsd": 1897002.41,
+   "scaleBp": 25.09,
+   "band80": [
+    145.46,
+    146.64
+   ],
+   "band95": [
+    144.96,
+    147.15
+   ],
+   "expectedMoveBp": -36.4
+  },
+  {
+   "symbol": "SPCXc",
+   "frozenOracle": {
+    "price": 119.57499999,
+    "updatedAt": 1795614221
+   },
+   "dexPrice": 119.38,
+   "dexLiquidityUsd": 987489.29,
+   "scaleBp": 25.09,
+   "band80": [
+    118.9,
+    119.86
+   ],
+   "band95": [
+    118.49,
+    120.28
+   ],
+   "expectedMoveBp": -16.3
+  },
+  {
+   "symbol": "AMZNc",
+   "frozenOracle": {
+    "price": 244.26,
+    "updatedAt": 1795602219
+   },
+   "dexPrice": 244.071,
+   "dexLiquidityUsd": 1397955.27,
+   "scaleBp": 25.09,
+   "band80": [
+    243.09,
+    245.06
+   ],
+   "band95": [
+    242.24,
+    245.91
+   ],
+   "expectedMoveBp": -7.7
+  },
+  {
+   "symbol": "GOOGLc",
+   "frozenOracle": {
+    "price": 266.07430376,
+    "updatedAt": 1795613688
+   },
+   "dexPrice": 265.88,
+   "dexLiquidityUsd": 1420594.53,
+   "scaleBp": 25.09,
+   "band80": [
+    264.81,
+    266.96
+   ],
+   "band95": [
+    263.89,
+    267.89
+   ],
+   "expectedMoveBp": -7.3
+  },
+  {
+   "symbol": "MSTRc",
+   "frozenOracle": {
+    "price": 74.365,
+    "updatedAt": 1795614337
+   },
+   "dexPrice": 74.18,
+   "dexLiquidityUsd": 427711.62,
+   "scaleBp": 25.09,
+   "band80": [
+    73.88,
+    74.48
+   ],
+   "band95": [
+    73.62,
+    74.74
+   ],
+   "expectedMoveBp": -24.9
+  },
+  {
+   "symbol": "AAPLc",
+   "frozenOracle": {
+    "price": 350.90049903,
+    "updatedAt": 1795606375
+   },
+   "dexPrice": 350.86,
+   "dexLiquidityUsd": 338434.36,
+   "scaleBp": 25.09,
+   "band80": [
+    349.45,
+    352.28
+   ],
+   "band95": [
+    348.23,
+    353.51
+   ],
+   "expectedMoveBp": -1.2
+  },
+  {
+   "symbol": "SNDKc",
+   "frozenOracle": {
+    "price": 578.56,
+    "updatedAt": 1795614238
+   },
+   "dexPrice": 578.57,
+   "dexLiquidityUsd": 1346421.01,
+   "scaleBp": 25.09,
+   "band80": [
+    576.24,
+    580.91
+   ],
+   "band95": [
+    574.24,
+    582.93
+   ],
+   "expectedMoveBp": 0.2
+  }
+ ],
+ "contentSha256": "271121024d0412bea73cc6aa3e0e8ca36a1976a55ad410e75eb61a405754099a"
+}
