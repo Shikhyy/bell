@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": { "@/*": ["../terminal/src/*"], "viem": ["../terminal/node_modules/viem"], "viem/*": ["../terminal/node_modules/viem/*"] }
+  },
+  "include": ["src"]
+}
