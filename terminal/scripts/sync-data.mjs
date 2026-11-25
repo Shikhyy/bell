@@ -22,4 +22,19 @@ for (const f of readdirSync(path.join(src, "feeds")).filter((x) => x.endsWith(".
   cpSync(path.join(src, "feeds", f), path.join(dst, "feeds", f));
   n++;
 }
+// Forward-test records (predictions, results, summary) live at the repo root, outside research/data.
+const fwdSrc = path.resolve(here, "..", "..", "forward");
+if (existsSync(fwdSrc)) {
+  for (const d of ["predictions", "results"]) {
+    mkdirSync(path.join(dst, "forward", d), { recursive: true });
+    for (const f of existsSync(path.join(fwdSrc, d)) ? readdirSync(path.join(fwdSrc, d)).filter((x) => x.endsWith(".json")) : []) {
+      cpSync(path.join(fwdSrc, d, f), path.join(dst, "forward", d, f));
+      n++;
+    }
+  }
+  if (existsSync(path.join(fwdSrc, "summary.json"))) {
+    cpSync(path.join(fwdSrc, "summary.json"), path.join(dst, "forward", "summary.json"));
+    n++;
+  }
+}
 console.log(`synced ${n} files → ${dst}`);
