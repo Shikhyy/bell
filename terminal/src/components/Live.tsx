@@ -58,6 +58,7 @@ const NAV = [
   { href: "/terminal/NVDAc", label: "Tokens", match: /^\/terminal\/[A-Za-z]+c$/ },
   { href: "/terminal/auctions", label: "Auctions" },
   { href: "/terminal/ledger", label: "Ledger" },
+  { href: "/terminal/forward", label: "Forward test" },
   { href: "/terminal/research", label: "Research" },
   { href: "/terminal/agents", label: "Agents" },
 ];

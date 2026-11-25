@@ -163,3 +163,45 @@ export function kindOf(ts: number): string {
   if (p.hhmm >= "20:00" && p.hhmm <= "20:29") return "overnight_2000";
   return "other";
 }
+
+
+// ───────────────────────── forward test ─────────────────────────
+
+export type ForwardStock = {
+  symbol: string; dexPrice: number; frozenPrice: number; scaleBp: number; status: string;
+  firstPrint?: number; secondsAfterBell?: number; insideBellMinute?: boolean;
+  errDexBp?: number; errFrozenBp?: number; crpsDexBp?: number; crpsFrozenBp?: number; inBand80?: boolean;
+};
+export type ForwardRun = {
+  file: string;
+  bell: { at: string; label: string; kind: string | null };
+  madeAt: string; secondsBeforeBell: number; contentSha256: string;
+  forecasts: { symbol: string; dexPrice: number; band80: number[] | null; frozenOracle: { price: number } }[];
+  result: null | {
+    n: number; crpsDexBp?: number; crpsFrozenBp?: number; maeDexBp?: number; maeFrozenBp?: number; coverage80?: number; insideBellMinute?: number;
+    stocks: ForwardStock[];
+  };
+};
+export type ForwardSummary = { bells: number; stocksScored: number; crpsDexBp: number; crpsFrozenBp: number; skill: number; coverage80: number };
+
+const FWD = process.env.FORWARD_DIR ?? (existsSync(path.join(process.cwd(), "data", "forward"))
+  ? path.join(process.cwd(), "data", "forward")
+  : path.join(process.cwd(), "..", "forward"));
+
+async function readJson<T>(file: string): Promise<T | null> {
+  try { return JSON.parse(await fs.readFile(file, "utf8")) as T; } catch { return null; }
+}
+
+/** Pre-registered forecasts and their scores, newest bell first. */
+export async function forwardTest(): Promise<{ summary: ForwardSummary | null; runs: ForwardRun[] }> {
+  let files: string[] = [];
+  try { files = (await fs.readdir(path.join(FWD, "predictions"))).filter((f) => f.endsWith(".json")); } catch { /* no forward data yet */ }
+  const runs: ForwardRun[] = [];
+  for (const f of files) {
+    const p = await readJson<Omit<ForwardRun, "file" | "result">>(path.join(FWD, "predictions", f));
+    if (!p) continue;
+    runs.push({ ...p, file: f, result: await readJson(path.join(FWD, "results", f)) });
+  }
+  runs.sort((a, b) => b.bell.at.localeCompare(a.bell.at));
+  return { summary: await readJson<ForwardSummary>(path.join(FWD, "summary.json")), runs };
+}
