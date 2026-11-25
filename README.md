@@ -48,7 +48,7 @@ and the Aerodrome pools that trade them.
 | | | |
 |---|---|---|
 | **01 · The bell is on a timetable** | **108 of 117** | weekly reopens, across 10 stocks, where the feed's first new print lands inside the **20:00 ET minute**, typically 35 s after the bell (19-57 s). The other nine came 1-24 min later, all thin names |
-| **02 · The weekend price knows the reopen** | **74% better** | than the frozen oracle at forecasting the first post-bell print: CRPS 15.0 bp vs 58.0 bp over **629 boundaries**, out of sample. Typical miss **18 bp vs 80 bp**. Sunday reopens alone: 77% |
+| **02 · The weekend price knows the reopen** | **74% better** | than the frozen oracle at forecasting the first post-bell print **from the pool price 30 s before the bell**: CRPS 15.0 bp vs 58.0 bp over **629 boundaries**, out of sample. Typical miss **18 bp vs 80 bp**. Sunday reopens alone: 77% |
 | **03 · Little is left to take at the bell** | **$11.6k** | lost by LPs to arbitrage at **227 scheduled bells** (median **$11**), and 67% of it sits in the worst tenth. The pool has already moved by then |
 
 Finding 02 contradicts published claims that weekend token prices say little about Monday. Finding 03 reframes the product:
