@@ -32,4 +32,4 @@ Base (X, tag @buildonbase, include the video):
 > Tokenized stocks on Base trade 24/7. The prices they track don't. 108 of 117 weekly reopens land inside the 20:00 ET minute, and the weekend DEX price forecasts them (-74% error, out of sample). bell: a terminal, an agent API, and a Uniswap v4 hook that auctions the reopen. Live: https://bell-terminal.embarko.app
 
 Embarko (add `#DeployWithEmbarko` and the link):
-> I built bell and put it live on @embarko_ai in a few minutes: https://bell-terminal.embarko.app #DeployWithEmbarko
+> I built bell and put it live on Embarko in a few minutes: https://bell-terminal.embarko.app #DeployWithEmbarko
