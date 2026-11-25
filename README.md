@@ -19,7 +19,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square)
 ![Read only](https://img.shields.io/badge/trading-none%20%C2%B7%20read--only-64748B?style=flat-square)
 
-**[Live terminal](https://bell-terminal.embarko.app)** · [Paper](docs/paper.md) · [The finding](#the-finding) · [Forward test](#forward-test) · [Screens](#screens) · [BellHook](#bellhook) · [For agents](#for-agents) · [Architecture](#architecture) · [Run it](#run-it) · [Honest limits](#honest-limits)
+**[Live terminal](https://bell.embarko.app)** · [Paper](docs/paper.md) · [The finding](#the-finding) · [Forward test](#forward-test) · [Screens](#screens) · [BellHook](#bellhook) · [For agents](#for-agents) · [Architecture](#architecture) · [Run it](#run-it) · [Honest limits](#honest-limits)
 
 </div>
 
@@ -83,7 +83,7 @@ A backtest can be tuned after the fact, so the repo also records forecasts **bef
 - The content hash is anchored in a Base Sepolia transaction ([`forward/anchors.md`](forward/anchors.md)).
 - `research/src/bell_research/forward.py` scores each stock against the first Chainlink round at or after the bell and writes `forward/results/` and `forward/summary.json`.
 - [`.github/workflows/forward.yml`](.github/workflows/forward.yml) runs around every Sunday reopen and commits as the Actions bot, so the timestamps are GitHub's. The next one is **Sunday 29 Nov, 20:00 ET**.
-- The terminal shows the record live on its [Forward test](https://bell-terminal.embarko.app/terminal/forward) page.
+- The terminal shows the record live on its [Forward test](https://bell.embarko.app/terminal/forward) page.
 
 The first record is a rehearsal on the 25 Nov 09:30 ET open, and it **did not beat the frozen oracle** (CRPS 62.0 bp vs 59.1 bp, 4 of 10 prints inside the bell minute). The forecast was locked 44 minutes early, while the backtest uses the pool price 30 seconds before the bell, so the workflow now predicts 20 and 10 minutes before the bell. A handful of bells is a handful of anecdotes; the point is that the process cannot see the outcome.
 

@@ -1,6 +1,6 @@
 # Video scripts
 
-Record the screen at 1080p with the mouse visible, then read the narration in your own voice. Live app: https://bell-terminal.embarko.app
+Record the screen at 1080p with the mouse visible, then read the narration in your own voice. Live app: https://bell.embarko.app
 
 ## A. Base Stocks Maxxing (aim for 90 s, tag @buildonbase)
 
@@ -22,14 +22,14 @@ Check the official rules first; the challenge is for students.
 1. **Who you are and what you built** (15 s): "I'm ___. I built bell, an opening auction for onchain stocks, because the prices tokenized stocks track go dark every weekend."
 2. **The app** (30 s): scroll the landing page, open the terminal, show the week clock, a token chart and the forward-test page. Show it on your phone too.
 3. **Your experience with Embarko** (20 s): say honestly how you got the Embarko prompt and how it felt.
-4. **How you hosted it** (30 s): show the deploy (the AI packaging the app and the live link appearing), then open `bell-terminal.embarko.app`.
+4. **How you hosted it** (30 s): show the deploy (the AI packaging the app and the live link appearing), then open `bell.embarko.app`.
 5. **The wow** (15 s): the forward test. "It forecast the open before it happened, and scored itself in public."
-6. **Close** (5 s): show the `bell-terminal.embarko.app` link and say or show **#DeployWithEmbarko**.
+6. **Close** (5 s): show the `bell.embarko.app` link and say or show **#DeployWithEmbarko**.
 
 ## Posts
 
 Base (X, tag @buildonbase, include the video):
-> Tokenized stocks on Base trade 24/7. The prices they track don't. 108 of 117 weekly reopens land inside the 20:00 ET minute, and the weekend DEX price forecasts them (-74% error, out of sample). bell: a terminal, an agent API, and a Uniswap v4 hook that auctions the reopen. Live: https://bell-terminal.embarko.app
+> Tokenized stocks on Base trade 24/7. The prices they track don't. 108 of 117 weekly reopens land inside the 20:00 ET minute, and the weekend DEX price forecasts them (-74% error, out of sample). bell: a terminal, an agent API, and a Uniswap v4 hook that auctions the reopen. Live: https://bell.embarko.app
 
 Embarko (add `#DeployWithEmbarko` and the link):
-> I built bell and put it live on Embarko in a few minutes: https://bell-terminal.embarko.app #DeployWithEmbarko
+> I built bell and put it live on Embarko in a few minutes: https://bell.embarko.app #DeployWithEmbarko
