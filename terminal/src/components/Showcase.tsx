@@ -93,7 +93,7 @@ function ForecastPanel({ d }: { d: ShowcaseData }) {
           <div className="mono haze" style={{ fontSize: 12 }}>{f.symbol} · {f.name}</div>
           <div style={{ fontSize: 15, marginTop: 4 }}>Oracle frozen for <span className="sodium">{f.ageH.toFixed(0)}h</span>. Next print: {d.bell.label}, <Countdown to={d.bell.at} /></div>
         </div>
-        <span className="chip" style={{ color: "var(--dawn)" }}>{(d.model.skill * 100).toFixed(0)}% better than the frozen oracle · {d.model.events} reopens</span>
+        <span className="chip" style={{ color: "var(--dawn)" }}>{(d.model.skill * 100).toFixed(0)}% better than the frozen oracle · {d.model.events} reopens · price 30 s before the bell</span>
       </div>
       <div className="axis">
         <div className="band95" style={{ left: `${mid - (mid - x(f.lo95)) * e}%`, width: `${(x(f.hi95) - x(f.lo95)) * e}%` }} />

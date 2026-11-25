@@ -11,6 +11,15 @@ export const metadata: Metadata = {
   title: "bell — an opening auction for onchain stocks",
   description:
     "Tokenized stocks on Base trade all weekend, but the prices they track jump at scheduled reopens. bell measures that jump and auctions it back to liquidity providers.",
+  metadataBase: new URL("https://bell.embarko.app"),
+  openGraph: {
+    title: "bell — an opening auction for onchain stocks",
+    description: "Onchain stocks trade all weekend; the oracle wakes at 20:00 ET and jumps. bell auctions that jump back to LPs.",
+    url: "https://bell.embarko.app",
+    siteName: "bell",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "bell — an opening auction for onchain stocks" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

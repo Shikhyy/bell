@@ -72,7 +72,7 @@ export default async function Ledger() {
 
   const kpis = [
     { label: "Events scored", value: `${o.n}`, color: "var(--moon)", sub: `${s.first.slice(0, 10)} → ${s.last.slice(0, 10)}, out of sample` },
-    { label: "Skill vs no change", value: pct(o.skill_dex_vs_no_change), color: "var(--dawn)", sub: "lower CRPS from the DEX price" },
+    { label: "Skill vs no change", value: pct(o.skill_dex_vs_no_change), color: "var(--dawn)", sub: "lower CRPS from the DEX price 30 s before the bell" },
     { label: "Typical miss", value: `${dex.mae_bp.toFixed(0)}bp`, color: "var(--moon)", sub: `vs ${base.mae_bp.toFixed(0)} bp for the frozen feed` },
     { label: "80% band holds", value: pct(dex.coverage80), color: "var(--moon)", sub: "target 80%; above means conservative" },
   ];
