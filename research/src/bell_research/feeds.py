@@ -37,7 +37,9 @@ FEEDS = {
 
 LATEST_ROUND_DATA = "0xfeaf968c"
 GET_ROUND_DATA = "0x9a6fc8f5"
-BATCH = 40
+# The public Base RPC allows 25 requests/s and counts every call in a batch, so stay under it by default.
+BATCH = int(os.environ.get("BELL_RPC_BATCH", "20"))
+BATCH_PAUSE_S = float(os.environ.get("BELL_RPC_PAUSE", "1.0"))
 
 
 _client = httpx.Client(timeout=30, headers={"User-Agent": "bell-research/0.1"})
@@ -103,6 +105,7 @@ def fetch_feed(ticker: str, addr: str, resume: tuple[int, int] | None = None) ->
             if not ids:
                 break
             res = rpc_batch([round_call(addr, (phase << 64) | n, k) for k, n in enumerate(ids)])
+            time.sleep(BATCH_PAUSE_S)
             got = 0
             for n, item in zip(ids, res):
                 dec = decode_round(item.get("result", "0x")) if "result" in item else None
