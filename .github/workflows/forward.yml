@@ -1,11 +1,14 @@
 name: forward-test
 
 # The weekly reopen is Sunday 20:00 ET = Monday 01:00 UTC while the US is on standard time
-# (until 8 Mar 2027). Predict 45 min before it, score about 90 min after it. Commits are made by the
-# Actions bot, so the timestamps come from GitHub rather than from anyone's laptop.
+# (until 8 Mar 2027). The backtest forecasts from the pool price 30 s before the bell, so predict as late as
+# GitHub's scheduler allows: a first run 20 min before, a fallback 10 min before (write-once, so the second is a
+# no-op when the first worked), and score about 90 min after. A run that starts after the bell refuses to predict.
+# Commits are made by the Actions bot, so the timestamps come from GitHub rather than from anyone's laptop.
 on:
   schedule:
-    - cron: "15 0 * * 1"
+    - cron: "40 0 * * 1"
+    - cron: "50 0 * * 1"
     - cron: "30 2 * * 1"
   workflow_dispatch:
     inputs:
@@ -23,7 +26,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     env:
-      JOB: ${{ github.event.inputs.job || (github.event.schedule == '15 0 * * 1' && 'predict' || 'score') }}
+      JOB: ${{ github.event.inputs.job || (github.event.schedule == '30 2 * * 1' && 'score' || 'predict') }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4

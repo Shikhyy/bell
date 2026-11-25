@@ -35,7 +35,7 @@ async function predict(flags: string[]) {
   if (!bell) throw new Error("no upcoming scheduled bell");
   if (bell.label !== "Weekly reopen" && !rehearsal) throw new Error(`next scheduled bell is not the weekly reopen (${bell?.label})`);
   if (bell.inSeconds <= 0) throw new Error("the bell has already rung");
-  if (bell.inSeconds > 4 * 3600 && !rehearsal) throw new Error(`bell is ${Math.round(bell.inSeconds / 60)} min away; run within 4 h of it (or pass --allow-early for a rehearsal)`);
+  if (bell.inSeconds > 2 * 3600 && !rehearsal) throw new Error(`bell is ${Math.round(bell.inSeconds / 60)} min away; run within 2 h of it (or pass --allow-early for a rehearsal)`);
 
   const qs = await sig.quotes();
   const bellTs = Math.floor(Date.parse(bell.at) / 1000);
@@ -75,7 +75,10 @@ async function predict(flags: string[]) {
     console.log(JSON.stringify(out, null, 1).slice(0, 1800), "\n… (dry run, nothing written)");
     return;
   }
-  if (fs.existsSync(file)) throw new Error(`${path.relative(ROOT, file)} already exists; predictions are write-once`);
+  if (fs.existsSync(file)) {
+    console.log(`${path.relative(ROOT, file)} already exists; predictions are write-once, leaving it untouched`);
+    return;
+  }
   fs.writeFileSync(file, JSON.stringify(out, null, 1) + "\n");
   console.log(`wrote ${path.relative(ROOT, file)}  ${forecasts.length} forecasts, ${Math.round(bell.inSeconds / 60)} min before the bell, sha256 ${sha.slice(0, 16)}…`);
 }
