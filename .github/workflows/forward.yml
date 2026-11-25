@@ -1,0 +1,59 @@
+name: forward-test
+
+# The weekly reopen is Sunday 20:00 ET = Monday 01:00 UTC while the US is on standard time
+# (until 8 Mar 2027). Predict 45 min before it, score about 90 min after it. Commits are made by the
+# Actions bot, so the timestamps come from GitHub rather than from anyone's laptop.
+on:
+  schedule:
+    - cron: "15 0 * * 1"
+    - cron: "30 2 * * 1"
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "predict or score"
+        required: true
+        default: "score"
+
+permissions:
+  contents: write
+
+concurrency: forward-test
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      JOB: ${{ github.event.inputs.job || (github.event.schedule == '15 0 * * 1' && 'predict' || 'score') }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Predict
+        if: env.JOB == 'predict'
+        run: |
+          pnpm --dir terminal install --frozen-lockfile
+          pnpm --dir cli install --frozen-lockfile
+          cd cli && pnpm exec tsx src/forward.ts predict
+
+      - name: Score
+        if: env.JOB == 'score'
+        run: |
+          cd research
+          uv sync
+          uv run python -m bell_research.feeds --update
+          uv run python -m bell_research.forward
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add forward research/data/feeds
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "data(forward): ${JOB} for the weekly reopen"
+          git push
